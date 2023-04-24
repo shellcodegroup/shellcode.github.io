@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Enrollment | Shell Code Academy</title>
+    <link rel="stylesheet" href="Form.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <li><a href="Enrollment.html">Enrollment</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Enrollment Form</h1>
+
+      <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+          <option value="" disabled selected>Select a course</option>
+          <option value="Introduction to Programming">Introduction to Programming</option>
+          <option value="Web Development Fundamentals">Web Development Fundamentals</option>
+          <option value="Object-Oriented Programming with Python">Object-Oriented Programming with Python</option>
+          <option value="Mobile App Development with React Native">Mobile App Development with React Native</option>
+          <option value="Data Science with Python">Data Science with Python</option>
+          <option value="Advanced Web Development with React">Advanced Web Development with React</option>
+        </select>
+
+        <label for="payment">Payment Method:</label>
+        <ul id="payment">
+          <li>
+            <input type="radio" id="credit" name="payment" value="credit">
+            <label for="credit">Credit Card</label>
+          </li>
+          <li>
+            <input type="radio" id="paypal" name="payment" value="paypal">
+            <label for="paypal">PayPal</label>
+          </li>
+        </ul>
+
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+
+    <footer>
+      <div style="background-color: #540079; padding: 30px;">
+        <section id="contact" style="color: #FFFFFF;">
+        <h2 style="color: white;">Contact Us</h2>
+        <p>If you have any questions about Shell Code Academy or our courses, please contact us:</p>
+        <ul style="list-style: none; padding-left: 0;">
+          <li>Email: info@shellcodeacademy.com</li>
+          <li>Phone: 555-555-5555</li>
+          <li>Address: 123 Main Street, Anytown, USA</li>
+        </ul>
+        </section>
+      </div>
+      <div style="background-color: #00a2ff; text-align: center; padding: 10px;">
+        <p style="color: #FFFFFF;">© 2023 Shell Code Academy. All rights reserved.</p>
+      </div>
+      </footer>	  
+</html>
