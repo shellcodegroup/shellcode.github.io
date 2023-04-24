@@ -1,0 +1,77 @@
+/* CSS for Login Form */
+.login-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  .login-card h1 {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .login-card form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-card label {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  .login-card input[type="text"],
+  .login-card input[type="email"],
+  .login-card input[type="password"] {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .login-card button {
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-card button:hover {
+    background-color: #555;
+  }
+  
+  .social-login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .social-login a {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-login a:hover {
+    background-color: #f5f5f5;
+  }
+  

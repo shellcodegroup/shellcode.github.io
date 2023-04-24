@@ -1,0 +1,170 @@
+/* The following CSS code defines styles for various elements on a web page */
+
+/* Sets the background color of the entire page to white and the text color to dark grey */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Removes any margins around heading elements */
+h1, h2, h3 {
+  margin: 0;
+}
+
+/* Sets the color and removes the underline from all links */
+a {
+  color: #540079;
+  text-decoration: none;
+}
+
+h1, h2 {
+  font-family: "Lato", sans-serif;
+  color: #4c006d;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* Styles the header element */
+header {
+  background-color: #540079;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Styles the navigation menu unordered list */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+/* Styles the navigation menu list items */
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* Styles the links within the navigation menu */
+nav a {
+  color: #fff;
+}
+
+/* Styles the links within the navigation menu when hovered over */
+nav a:hover {
+  color: #00a2ff;
+}
+
+/* Styles the main content area of the page */
+main {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles the labels within forms */
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Styles the text input fields, email input fields, telephone input fields, and text areas within forms */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Styles the height of text areas within forms */
+form textarea {
+  height: 150px;
+}
+
+/* Styles the submit button within forms */
+form button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #540079;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Styles the contact information section of the page */
+.contact-info {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+/* Styles the heading within the contact information section */
+.contact-info h2 {
+  margin-top: 0;
+}
+
+/* Styles the unordered list within the contact information section */
+.contact-info ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Styles the list items within the contact information section */
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+/* Style the footer section */
+footer {
+  background-color: #540079;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+/* Style the copyright text in the footer */
+footer p {
+  margin: 0;
+}
+
+/* Style the purple section */
+.purple-section {
+  background-color: #540079;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+/* Style images with a border and rounded corners */
+img {
+  border: 5px solid #540079;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
