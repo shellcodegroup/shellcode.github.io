@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Example</title>
+	<style>
+		.box {
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			margin: 10px;
+			float: left;
+		}
+		
+		@media (max-width: 600px) {
+			.box {
+				float: none;
+				margin-right: 0;
+				margin-bottom: 10px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+
+	<script>
+		function responsive() {
+			var x = document.querySelectorAll(".box");
+			if (window.innerWidth <= 600) {
+				for (var i = 0; i < x.length; i++) {
+					x[i].classList.add("responsive");
+				}
+			} else {
+				for (var i = 0; i < x.length; i++) {
+					x[i].classList.remove("responsive");
+				}
+			}
+		}
+		window.onload = responsive;
+		window.onresize = responsive;
+	</script>
+</body>
+</html>
